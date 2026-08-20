@@ -1,9 +1,14 @@
 {
   "name": "green-night-pi",
-  "version": "0.2.0",
-  "description": "Green-night 绿色系主题 + 居左色块 footer + Claude Code 风格启动头部（动画 π logo，默认绿色/标语 Pi）",
+  "version": "0.2.1",
+  "description": "Green-night 绿色系夜间主题 + 居左色块 footer + Claude Code 风格启动头部（动画 π logo，默认绿色/标语 Pi）",
   "keywords": ["pi-package", "theme", "footer", "header", "green", "claude-code"],
   "license": "MIT",
+  "homepage": "https://github.com/Least1924/green-night-pi#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Least1924/green-night-pi.git"
+  },
   "pi": {
     "extensions": ["./extensions"],
     "themes": ["./themes"]
