@@ -1,0 +1,16 @@
+{
+  "name": "green-night-pi",
+  "version": "0.2.0",
+  "description": "Green-night 绿色系主题 + 居左色块 footer + Claude Code 风格启动头部（动画 π logo，默认绿色/标语 Pi）",
+  "keywords": ["pi-package", "theme", "footer", "header", "green", "claude-code"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./extensions"],
+    "themes": ["./themes"]
+  },
+  "files": ["themes", "extensions", "README.md", "THIRD_PARTY_NOTICES.md"],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
